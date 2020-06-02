@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'; 
 import App from './containers/App';   // study about named and default exports, I worked tirelessly debugging the errors 
-import Card from './components/CardList';  // please pay attention to the exporting importing
-import CardList from './components/CardList';
+//import Card from './components/CardList';  // please pay attention to the exporting importing
+//import CardList from './components/CardList';
 import 'tachyons';
-import {robots} from './robots';
+//import {robots} from './robots';
 import registerServiceWorker from './registerServiceWorker';
 
 //import registerServiceWorker from './serviceWorker';
@@ -18,7 +18,7 @@ import registerServiceWorker from './registerServiceWorker';
 					<Card id={robots[2].id} name={robots[2].name} email={robots[2].email}/>
 				</div>,
 	document.getElementById('root')); */
-ReactDOM.render(<CardList robots = {robots} />, document.getElementById('root'));
-//ReactDOM.render(<App/>, document.getElementById('root'));
+//ReactDOM.render(<CardList robots = {robots} />, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 registerServiceWorker();
 
