@@ -1,45 +1,45 @@
 export const robots = [
   {
     id: 1,
-    name: 'Amit Shah',
-    username: 'shah',
-    email: 'got@chronology.com'
+    name: 'Leanne Graham',
+    username: 'Bret',
+    email: 'Sincere@april.biz'
   },
   {
     id: 2,
-    name: 'Dolund Trump',
-    username: 'donu',
-    email: 'donald.chutiya@racist.com'
+    name: 'Ervin Howell',
+    username: 'Antonette',
+    email: 'Shanna@melissa.tv'
   },
   {
     id: 3,
-    name: 'Narendra Moody',
-    username: 'atmanirbhar',
-    email: 'pmcares@fuckpoor.com'
+    name: 'Clementine Bauch',
+    username: 'Samantha',
+    email: 'Nathan@yesenia.net'
   },
   {
     id: 4,
-    name: 'Jyoti Scindia',
-    username: 'paltu',
-    email: 'partybadalliyasala@bjpcong.com'
+    name: 'Patricia Lebsack',
+    username: 'Karianne',
+    email: 'Julianne.OConner@kory.org'
   },
   {
     id: 5,
-    name: 'Shivraj Singh Chouhan',
-    username: 'vyapam',
-    email: 'kansmama@exam.com'
+    name: 'Chelsey Dietrich',
+    username: 'Kamren',
+    email: 'Lucio_Hettinger@annie.ca'
   },
   {
     id: 6,
-    name: 'Rahul Gandhi',
-    username: 'pappu',
-    email: 'nocomments@pappu.com'
+    name: 'Mrs. Dennis Schulist',
+    username: 'Leopoldo_Corkery',
+    email: 'Karley_Dach@jasper.info'
   },
   {
     id: 7,
-    name: 'Sushrut Tabakade',
-    username: 'tabakade',
-    email: 'sushrut.tab1998@gmail.com'
+    name: 'Kurtis Weissnat',
+    username: 'Elwyn.Skiles',
+    email: 'Telly.Hoeger@billy.biz'
   },
   {
     id: 8,
