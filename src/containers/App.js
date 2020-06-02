@@ -11,10 +11,15 @@ class App extends React.Component {
       robots: [],
       searchfield: ''
     }
+    //console.log("constructor ran!");
   }
 
+  // we get this method in mounting which is part of React lifecycle hooks
+  // constructor ran -- render ran -- componentDidMount ran -- render ran => this is the order here
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
+    //console.log("componentDidMount ran!");
+    // fetch is a method of window object
+    fetch('https://jsonplaceholder.typicode.com/users')   // we're getting the users data from this api and updating the robots list with it
       .then(response=> response.json())
       .then(users => {this.setState({ robots: users})});
   }
@@ -30,11 +35,12 @@ class App extends React.Component {
   }
 
   render() {
+    //console.log("render ran!");
     const { robots, searchfield } = this.state; // state is used to make the children communicate with each other
     const filteredRobots = robots.filter(robot =>{
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
-    return !robots.length ?
+    return !robots.length ?  // just an if statement to see if the length of robots array is greater than 0
       <h1>Loading</h1> :
       (
         <div className='tc'>
