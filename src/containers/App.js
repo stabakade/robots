@@ -40,8 +40,7 @@ class App extends React.Component {
     const filteredRobots = robots.filter(robot =>{
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
-    return !robots.length ?  // just an if statement to see if the length of robots array is greater than 0
-      <h1>Loading</h1> :
+    return 
       (
         <div className='tc'>
           <h1 className='f1'>Robo App</h1>
